@@ -1,16 +1,28 @@
 body {
-    background-color: blueviolet;
+    background: url("../background1.jpg")
 }
 
 h1 {
+    font-family: 'Syncopate', sans-serif;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
+    padding: 20px;
+    color: blueviolet;
 }
 
 .nav {
-    background-color: grey;
+    background-color: black;
+    border-bottom: 4px solid gray;
+    border-top: 4px solid gray;
+}
+
+img {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 span {
+    display: block;
     text-align: center;
+    background-color: grey;
 }
