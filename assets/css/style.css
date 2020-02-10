@@ -1,0 +1,16 @@
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+.nav {
+    background-color: grey;
+}
+
+span {
+    text-align: center;
+}
