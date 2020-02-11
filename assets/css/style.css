@@ -40,3 +40,8 @@ span {
     width: max-content;
     padding-right: 50px;
 }
+
+#submit {
+    background: blueviolet;
+    color: black;
+}
