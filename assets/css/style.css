@@ -1,5 +1,12 @@
 body {
-    background: url("../background2.jpg")
+    background: url("../background2.jpg");
+    color: blueviolet;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
 }
 
 h1 {
@@ -25,4 +32,11 @@ span {
     display: block;
     text-align: center;
     background-color: grey;
+}
+
+#photo {
+    display: block;
+    float: left;
+    width: max-content;
+    padding-right: 50px;
 }
