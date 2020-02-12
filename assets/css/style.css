@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background: url("../background2.jpg");
     color: blueviolet;
@@ -12,9 +16,20 @@ body {
 h1 {
     font-family: 'Syncopate', sans-serif;
     text-align: center;
-    font-weight: 400;
+    font-weight: 900;
+    font-size: 50px;
     padding: 20px;
     color: blueviolet;
+}
+
+h3 {
+    background: blueviolet;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 200px;
+    top: 275px;
 }
 
 .nav {
@@ -26,12 +41,17 @@ h1 {
 img {
     margin-top: 50px;
     margin-bottom: 50px;
+    display: block;
+    position: relative;
 }
 
 span {
     display: block;
     text-align: center;
     background-color: grey;
+    color: white;
+    padding-top: 20px;
+    border-top: 5px solid blueviolet;
 }
 
 #photo {
@@ -44,4 +64,17 @@ span {
 #submit {
     background: blueviolet;
     color: black;
+}
+
+.wrapper h3 {
+    position: absolute;
+    padding: 15px;
+    margin-top: 10px;
+    border-bottom: 20px;
+    left: 20px;
+    width: 300px;
+}
+
+.portfolio {
+    left: 5px;
 }
