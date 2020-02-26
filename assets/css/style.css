@@ -38,6 +38,10 @@ h3 {
     border-top: 4px solid gray;
 }
 
+p {
+    padding-top: 40px;
+}
+
 img {
     margin-top: 50px;
     margin-bottom: 50px;
@@ -66,6 +70,11 @@ span {
     color: black;
 }
 
+a {
+    text-decoration: none;
+    color: magenta;
+}
+
 .wrapper h3 {
     position: absolute;
     padding: 15px;
@@ -77,4 +86,15 @@ span {
 
 .portfolio {
     left: 5px;
+}
+
+#links {
+    text-align: center;
+}
+
+#centerLink {
+    border-left: 2px solid magenta;
+    border-right: 2px solid magenta;
+    padding-left: 10px;
+    padding-right: 10px;
 }
