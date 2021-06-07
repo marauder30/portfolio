@@ -98,3 +98,21 @@ a {
     padding-left: 10px;
     padding-right: 10px;
 }
+
+#iconlinkedin {
+    height: 152px;
+    width: 495px;
+    margin-left: 12px;
+}
+
+#iconemail {
+    height: 303px;
+    width: 383px;
+    margin-left: 70px;
+}
+
+#icongithub {
+    height: 205px;
+    width: 500px;
+    margin-left: 12px;
+}
