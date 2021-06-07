@@ -116,3 +116,24 @@ a {
     width: 500px;
     margin-left: 12px;
 }
+
+h6 {
+    text-align: center;
+}
+
+.img-fluid {
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.img-fluid::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+    transform: scale(1.1, 1.1);
+}
