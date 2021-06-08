@@ -16,9 +16,10 @@ body {
 h1 {
     font-family: 'Syncopate', sans-serif;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
     font-weight: 900;
     font-size: 50px;
-    padding: 20px;
     color: blueviolet;
 }
 
@@ -112,6 +113,13 @@ a {
 #icongithub {
     height: 50%;
     width: 50%;
+}
+
+h4 {
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    color: magenta;
 }
 
 h6 {
