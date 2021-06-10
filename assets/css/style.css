@@ -101,19 +101,19 @@ a {
     padding-right: 10px;
 }
 
-#iconlinkedin {
-    height: 50%;
-    width: 50%;
-}
-
 #iconemail {
-    height: 35%;
-    width: 35%;
+    height: 30%;
+    width: 30%;
 }
 
 #icongithub {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
+}
+
+#iconlinkedin {
+    height: 40%;
+    width: 40%;
 }
 
 h2 {
